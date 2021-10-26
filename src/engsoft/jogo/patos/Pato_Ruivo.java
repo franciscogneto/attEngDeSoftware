@@ -1,20 +1,21 @@
 package engsoft.jogo.patos;
 
-public class Pato_Ruivo extends Pato implements Padrao_Grasnar{
+//Herança: Pois herda da Classe Pato, setando o comportamento no método contrutor
+//Programação voltada a interface: pois implementa a interface Padrao_Grasnar
+public class Pato_Ruivo extends Pato implements Padrao_Grasnar {
 
-	public Pato_Ruivo()
-	{
-		setComportamento(new Voaveis_Asa());		
+	// Delegação: Pois seta o comportamento do Pato_Ruivo como Voaveis_Asa
+	public Pato_Ruivo() {
+		setComportamento(new Voaveis_Asa());
 	}
-	
+
 	public String mostrar() {
-		return "Eu sou o Pato Ruivo." ;
+		return "Eu sou o Pato Ruivo.";
 	}
 
 	public String grasnar() {
-		// TODO Auto-generated method stub
-		return 	"Que-Que.";
-	
+		return "Que-Que.";
+
 	}
 
 }
