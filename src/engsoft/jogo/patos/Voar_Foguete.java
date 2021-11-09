@@ -9,12 +9,12 @@ public class Voar_Foguete implements Padrao_Voaveis {
 		velocidade = 1000;
 	}
 
-	// Polimorfismo: subcreve o método voar() da interface Padrao_Voaveis
+	// Polimorfismo: subscreve o método voar() da interface Padrao_Voaveis
 	public String voar() {
 		return "Voando como um foguete. Velocidade: " + getVelocidade();
 	}
 
-	// Polimorfismo: subcreve o método getVelocidade() da interface Padrao_Voaveis
+	// Polimorfismo: subscreve o método getVelocidade() da interface Padrao_Voaveis
 	public double getVelocidade() {
 		return velocidade;
 	}

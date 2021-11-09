@@ -9,12 +9,12 @@ public class Voaveis_Asa implements Padrao_Voaveis {
 		velocidade = 10;
 	}
 
-	// Polimorfismo: subcreve o método voar() da interface Padrao_Voaveis
+	// Polimorfismo: subscreve o método voar() da interface Padrao_Voaveis
 	public String voar() {
 		return "Voando como um p�ssaro que voa. Velocidade: " + getVelocidade();
 	}
 
-	// Polimorfismo: subcreve o método getVelocidade() da interface Padrao_Voaveis
+	// Polimorfismo: subscreve o método getVelocidade() da interface Padrao_Voaveis
 	public double getVelocidade() {
 		return velocidade;
 	}

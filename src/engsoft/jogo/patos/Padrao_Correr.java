@@ -1,8 +1,9 @@
 package engsoft.jogo.patos;
 
 //Interface: Define um método, mas não define sua funcionalidade.
-public interface Padrao_Grasnar {
+public interface Padrao_Correr {
 
-	String grasnar();
+	String correr();
+    double getVelocidade();
 
 }
